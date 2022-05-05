@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="77" viewBox="0 0 76 77">
+    <defs>
+        <filter id="prefix__b" width="163.6%" height="163.6%" x="-31.8%" y="-28.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 0.326086128 0 0 0 0 0.326086128 0 0 0 0.3 0"/>
+        </filter>
+        <filter id="prefix__e" width="119.2%" height="126.4%" x="-9.6%" y="-6.7%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.980392157 0 0 0 0 0.447678425 0 0 0 0 0.0941176471 0 0 0 1 0"/>
+        </filter>
+        <path id="prefix__a" d="M27.5.865c15.188 0 27.5 12.313 27.5 27.5 0 15.188-12.312 27.5-27.5 27.5-.514 0-1.025-.014-1.532-.042H8.085c-1.38 0-2.5-1.119-2.5-2.5 0-.825.407-1.597 1.089-2.063l2.936-2.008C3.727 44.208 0 36.722 0 28.365 0 13.178 12.312.865 27.5.865z"/>
+        <path id="prefix__f" d="M31.477 23.815l5.312 9.444c.515.916.19 2.077-.726 2.593-.285.16-.607.244-.934.244H24.505c-1.051 0-1.904-.852-1.904-1.904 0-.327.085-.648.245-.933l5.312-9.444c.515-.916 1.676-1.241 2.593-.726.304.171.555.422.726.726z"/>
+        <linearGradient id="prefix__c" x1="20.398%" x2="88.067%" y1="11.741%" y2="80.431%">
+            <stop offset="0%" stop-color="#FFCB7B"/>
+            <stop offset="100%" stop-color="#FF5858"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-opacity="0" d="M3 4H73V74H3z"/>
+        <g transform="translate(10.5 8.135)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <use fill="#000" filter="url(#prefix__b)" xlink:href="#prefix__a"/>
+            <use fill="url(#prefix__c)" xlink:href="#prefix__a"/>
+            <g mask="url(#prefix__d)" transform="rotate(90 29.817 28.48)">
+                <use fill="#000" filter="url(#prefix__e)" xlink:href="#prefix__f"/>
+                <use fill="#FFF" xlink:href="#prefix__f"/>
+            </g>
+        </g>
+    </g>
+</svg>

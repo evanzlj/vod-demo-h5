@@ -1,0 +1,48 @@
+.homeWrapper {
+  background-color: rgb(47, 54, 69);
+  padding: 45px;
+  background: url(../../assets/bg.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.homeWrapper a {
+  text-decoration: none;
+}
+.homeWrapper .icon {
+  height: 55px;
+  width: 55px;
+}
+.homeWrapper .title {
+  color: black;
+  font-family: PingFangSC;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.iconWrapper {
+  padding: 12px;
+  border-radius: 16px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(19, 24, 36, 0.6);
+  height: 180px;
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-left: 36px;
+  text-align: left;
+}
+.vod-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  margin-top: 140px;
+  margin-bottom: 15px;
+}
+.vod-desc {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 140px;
+  text-align: left;
+}
+
+

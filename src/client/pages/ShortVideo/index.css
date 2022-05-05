@@ -1,0 +1,22 @@
+.videoCard {
+  border: none!important;
+}
+
+.shortVideoCard {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 0;
+  border: none
+}
+
+.shortVideoCover {
+  height: 280px !important;
+}
+
+.videoWrapper {
+  padding: 0 24px;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
