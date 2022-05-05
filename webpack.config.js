@@ -4,9 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const outputDirectory = 'dist';
 // custom webpack config
-const publicPath = process.env.BUILD_TYPE === 'offline'
-  ? process.env.CDN_INNER_CN
-  : process.env.CDN_OUTER_CN;
+const publicPath = process.env.CDN_OUTER_CN;
 module.exports = {
   entry: ['babel-polyfill', './src/client/index.js'],
   output: {
