@@ -32,7 +32,7 @@ export default function TinyVideo() {
       console.error('get tiny video error', e);
       setError('REQUEST_ERROR');
     } finally {
-      // setIsLoading(false);
+      setIsLoading(false);
     }
   };
   useEffect(() => {
