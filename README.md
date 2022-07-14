@@ -26,6 +26,7 @@ git clone git@github.com:volcengine/vod-demo-h5.git
 # Install dependencies
 yarn (or npm install)
 
+Follow Documentation and get AK / SK
 # Start development server
 yarn dev (or npm run dev)
 ```
